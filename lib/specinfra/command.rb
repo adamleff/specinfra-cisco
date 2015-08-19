@@ -206,6 +206,22 @@ require 'specinfra/command/opensuse'
 require 'specinfra/command/opensuse/base'
 require 'specinfra/command/opensuse/base/service'
 
+# Nexus (inherit Linux)
+require 'specinfra/command/nexus'
+require 'specinfra/command/nexus/base'
+require 'specinfra/command/nexus/base/file'
+require 'specinfra/command/nexus/base/host'
+require 'specinfra/command/nexus/base/iptables'
+
+# Nexus V7 (inherit Nexus)
+require 'specinfra/command/nexus/v7'
+require 'specinfra/command/nexus/v7/host'
+require 'specinfra/command/nexus/v7/service'
+require 'specinfra/command/nexus/v7/port'
+require 'specinfra/command/nexus/base/package'
+require 'specinfra/command/nexus/base/service'
+require 'specinfra/command/nexus/base/yumrepo'
+
 # FreeBSD (inherit Base)
 require 'specinfra/command/freebsd'
 require 'specinfra/command/freebsd/base'
