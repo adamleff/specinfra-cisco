@@ -1,5 +1,6 @@
 class Specinfra::Helper::DetectOs::Nexus < Specinfra::Helper::DetectOs
   def detect
+    print "!!>> Nexus Module"
     # CentOS has a os-release file too, but this should do the right thing
     if File.exists?('/etc/os-release')
       contents = {}
