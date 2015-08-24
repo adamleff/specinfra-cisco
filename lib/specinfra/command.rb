@@ -218,9 +218,9 @@ require 'specinfra/command/nexus/v7'
 require 'specinfra/command/nexus/v7/host'
 require 'specinfra/command/nexus/v7/service'
 require 'specinfra/command/nexus/v7/port'
-require 'specinfra/command/nexus/base/package'
-require 'specinfra/command/nexus/base/service'
-require 'specinfra/command/nexus/base/yumrepo'
+require 'specinfra/command/nexus/v7/package'
+require 'specinfra/command/nexus/v7/service'
+require 'specinfra/command/nexus/v7/yumrepo'
 
 # FreeBSD (inherit Base)
 require 'specinfra/command/freebsd'
