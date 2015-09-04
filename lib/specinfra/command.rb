@@ -215,7 +215,6 @@ require 'specinfra/command/nexus/base/host'
 require 'specinfra/command/nexus/base/iptables'
 require 'specinfra/command/nexus/base/service'
 require 'specinfra/command/nexus/base/port'
-require 'specinfra/command/nexus/base/package'
 
 # Nexus V7 (inherit Nexus)
 require 'specinfra/command/nexus/v7'
