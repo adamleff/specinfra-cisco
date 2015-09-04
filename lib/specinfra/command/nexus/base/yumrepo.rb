@@ -1,4 +1,4 @@
-class Specinfra::Command::Nexus::V7::Yumrepo < Specinfra::Command::Linux::Base::Yumrepo
+class Specinfra::Command::Nexus::Base::Yumrepo < Specinfra::Command::Linux::Base::Yumrepo
   class << self
     def check_exists(repository)
       "yum repolist all -C | grep ^#{escape(repository)}"
@@ -9,5 +9,3 @@ class Specinfra::Command::Nexus::V7::Yumrepo < Specinfra::Command::Linux::Base::
     end
   end
 end
-
-
