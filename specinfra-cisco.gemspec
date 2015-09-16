@@ -6,10 +6,10 @@ require 'specinfra/version'
 Gem::Specification.new do |spec|
   spec.name          = "specinfra"
   spec.version       = Specinfra::VERSION
-  spec.authors       = ["Gosuke Miyashita"]
-  spec.email         = ["gosukenator@gmail.com"]
-  spec.description   = %q{Common layer for serverspec and itamae}
-  spec.summary       = %q{Common layer for serverspec and itamae}
+  spec.authors       = ["Gosuke Miyashita", "Carl Perry"]
+  spec.email         = ["gosukenator@gmail.com", "partnereng@chef.io"]
+  spec.description   = %q{Common layer for serverspec and itamae patched for Cisco platforms}
+  spec.summary       = %q{Common layer for serverspec and itamae patched for Cisco platforms}
   spec.homepage      = ""
   spec.license       = "MIT"
 
