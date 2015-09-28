@@ -1,11 +1,8 @@
 # coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'specinfra/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "specinfra"
-  spec.version       = Specinfra::VERSION
+  spec.name          = "specinfra-cisco"
+  spec.version       = "2.40.2"
   spec.authors       = ["Gosuke Miyashita", "Carl Perry"]
   spec.email         = ["gosukenator@gmail.com", "partnereng@chef.io"]
   spec.description   = %q{Common layer for serverspec and itamae patched for Cisco platforms}
